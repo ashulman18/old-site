@@ -1,3 +1,5 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.pptx filter=lfs diff=lfs merge=lfs -text
+Assignment2.pptx filter=lfs diff=lfs merge=lfs -text
+concept.mp4 filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
