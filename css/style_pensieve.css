@@ -1,0 +1,350 @@
+
+
+a {
+  color: #41b7fc;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #41b7fc;
+  outline: none;
+  text-decoration: none;
+}
+
+/*a { color: white; background:#41b7fc; text-decoration: none; }*/
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 4s infinite;
+  -webkit-animation: bounce 4s infinite;
+  animation: bounce 4s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.ubea-nav ul li.has-dropdown .dropdown li a:hover {
+  color: #41b7fc;
+}
+
+.bttom {
+  color: white; 
+  /*background-color: rgb(65, 183, 252,.7)*/
+}
+
+::-webkit-selection {
+  color: #fff;
+  background: #41b7fc;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #41b7fc;
+}
+
+::selection {
+  color: #fff;
+  background: #41b7fc;
+}
+
+.ubea-nav #ubea-logo em {
+  color: #41b7fc;
+}
+.ubea-nav ul li a:hover, .ubea-nav ul li a:focus, .ubea-nav ul li a:active {
+  color: #41b7fc;
+}
+.ubea-nav ul li.has-dropdown:hover a, .ubea-nav ul li.has-dropdown:focus a {
+  color: #41b7fc;
+}
+.ubea-nav ul li.active > a {
+  color: #41b7fc !important;
+}
+.ubea-cover a {
+  color: #41b7fc;
+}
+
+/*Line below headers!!!*/
+/*.ubea-heading h2:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 50px;
+  margin-left: -25px;
+  height: 2px;
+  left: 50%;
+  background: #41b7fc;
+}*/
+.btn-primary {
+  background: #41b7fc;
+  color: #fff;
+  border: 2px solid #41b7fc !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #41b7fc;
+  border: 2px solid #41b7fc;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #41b7fc;
+  color: #fff;
+}
+
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #41b7fc;
+}
+.ubea-nav .ubea-contact ul li a i {
+  color: #41b7fc;
+}
+#ubea-features-3 .feature {
+  width: 33.33%;
+  float: left;
+  padding: 30px;
+  background: #41b7fc;
+  position: relative;
+  text-align: center;
+}
+.ubea-accordion.active h3 {
+  color: #41b7fc;
+}
+#ubea-services .feature-left h3 {
+  color: #41b7fc;
+  font-size: 22px;
+}
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #41b7fc;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: rgb(65, 183, 252,.4);
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #41b7fc;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    /*content: "\f10d";*/
+    font-family: "Lato";
+    font-weight: 300;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+* {box-sizing: border-box}
+body {font-family: "Lato"; margin:0}
+.mySlides {display: none; }
+.slidePhotos {height: 600px}
+img {vertical-align: middle;}
+.NavBar-Title .NavBar-Title .NavBar-Title--inactive{
+  font-family: "Lato";
+  font-weight: 300;
+}
+.onScroll {
+  visibility: hidden;
+  /*width: 50%;*/
+  pointer-events: none
+}
+.onScroll.active {
+  visibility: visible;
+  background-color: transparent;
+}
+.js-top {
+  /*width: 50%;*/
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(65, 183, 252,.9);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(254, 254, 254, .8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: rgb(65, 183, 252,.9);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(65, 183, 252,.5);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(65, 183, 252,.9);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

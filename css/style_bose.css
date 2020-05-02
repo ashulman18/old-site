@@ -1,0 +1,118 @@
+.highlight span{
+  background-color: rgb(70, 79, 99,.6);
+  font-weight:500;
+}
+
+a {
+  color: #596580;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #596580;
+  outline: none;
+  text-decoration: none;
+}
+
+.ubea-nav ul li.has-dropdown .dropdown li a:hover {
+  color: #596580;
+}
+
+img .struc {
+  /*width: 23%;*/
+  height: 23%;
+  margin-top: 0px
+}
+
+.bttom a {
+  background-color: rgb(70, 79, 99,.6);
+}
+
+::-webkit-selection {
+  color: #fff;
+  background: #596580;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #596580;
+}
+
+::selection {
+  color: #fff;
+  background: #596580;
+}
+
+.ubea-nav #ubea-logo em {
+  color: #596580;
+}
+.ubea-nav ul li a:hover, .ubea-nav ul li a:focus, .ubea-nav ul li a:active {
+  color: #596580;
+}
+.ubea-nav ul li.has-dropdown:hover a, .ubea-nav ul li.has-dropdown:focus a {
+  color: #596580;
+}
+.ubea-nav ul li.active > a {
+  color: #596580 !important;
+}
+.ubea-cover a {
+  color: #596580;
+}
+.ubea-social-icons li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #596580;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*.ubea-heading h2:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 50px;
+  margin-left: -25px;
+  height: 2px;
+  left: 50%;
+  background: #596580;
+}*/
+.btn-primary {
+  background: #596580;
+  color: #fff;
+  border: 2px solid #596580 !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #596580;
+  border: 2px solid #596580;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #596580;
+  color: #fff;
+}
+
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #596580;
+}
+.ubea-nav .ubea-contact ul li a i {
+  color: #596580;
+}
+#ubea-features-3 .feature {
+  width: 33.33%;
+  float: left;
+  padding: 30px;
+  background: #596580;
+  position: relative;
+  text-align: center;
+}
+.ubea-accordion.active h3 {
+  color: #596580;
+}
+#ubea-services .feature-left h3 {
+  color: #596580;
+  font-size: 22px;
+}

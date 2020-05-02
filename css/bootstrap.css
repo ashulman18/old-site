@@ -327,7 +327,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato";
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -344,11 +344,11 @@ textarea {
 }
 
 a {
-  color: #337ab7;
+  color: #c542c7;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #23527c;
+  color: #c542c7;
   text-decoration: underline;
 }
 a:focus {
@@ -811,7 +811,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Lato";
 }
 
 code {
@@ -967,7 +967,7 @@ pre code {
 }
 
 .col-xs-10 {
-  width: 83.33333%;
+  width: 80.33333%;
 }
 
 .col-xs-11 {
@@ -1084,6 +1084,10 @@ pre code {
 
 .col-xs-offset-0 {
   margin-left: 0%;
+}
+
+.col-xs-offset-01 {
+  margin-left: 4%;
 }
 
 .col-xs-offset-1 {
@@ -1345,7 +1349,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
+    float: center;
   }
 
   .col-md-1 {
@@ -1506,51 +1510,29 @@ pre code {
 
   .col-md-offset-1 {
     margin-left: 8.33333%;
+    margin-right: 8.33333%;
   }
 
   .col-md-offset-2 {
     margin-left: 16.66667%;
+    margin-right: 16.66667%;
   }
 
   .col-md-offset-3 {
     margin-left: 25%;
+    margin-right: 25%;
   }
 
   .col-md-offset-4 {
     margin-left: 33.33333%;
+    margin-right: 33.33333%;
   }
 
   .col-md-offset-5 {
     margin-left: 41.66667%;
+    margin-right: 41.66667%;
   }
 
-  .col-md-offset-6 {
-    margin-left: 50%;
-  }
-
-  .col-md-offset-7 {
-    margin-left: 58.33333%;
-  }
-
-  .col-md-offset-8 {
-    margin-left: 66.66667%;
-  }
-
-  .col-md-offset-9 {
-    margin-left: 75%;
-  }
-
-  .col-md-offset-10 {
-    margin-left: 83.33333%;
-  }
-
-  .col-md-offset-11 {
-    margin-left: 91.66667%;
-  }
-
-  .col-md-offset-12 {
-    margin-left: 100%;
-  }
 }
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -5472,7 +5454,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5594,7 +5576,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5735,9 +5717,9 @@ button.close {
 .carousel-inner > .item {
   display: none;
   position: relative;
-  -webkit-transition: 0.6s ease-in-out left;
-  -o-transition: 0.6s ease-in-out left;
-  transition: 0.6s ease-in-out left;
+  -webkit-transition: 600s ease-in-out left;
+  -o-transition: 600s ease-in-out left;
+  transition: 600s ease-in-out left;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -5867,7 +5849,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
+  font-family: sans-serif;
 }
 .carousel-control .icon-prev:before {
   content: '\2039';

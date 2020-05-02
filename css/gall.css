@@ -1,5 +1,40 @@
-@import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+/*@import url(font-awesome.min.css);*/
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");*/
+/*@import url("http://fonts.googleapis.com/css?family=Lato&display=swap");*/
+
+
+@font-face { font-family: Lato, sans-serif; font-weight:400; font-style:normal;
+             src: '../fonts/Lato-Regular.ttf'} 
+@font-face { font-family: Lato-Black, sans-serif; font-weight:600; font-style:normal;
+             src: '../fonts/Lato-Black.ttf' } 
+@font-face { font-family: Lato-Bold, sans-serif; font-weight:500; font-style:normal;
+             src: '../fonts/Lato-Bold.ttf' } 
+@font-face { font-family: Lato-Light, sans-serif; font-weight:300; font-style:normal;
+             src: '../fonts/Lato-Light.ttf' } 
+@font-face { font-family: Lato-Thin, sans-serif; font-weight:200; font-style:normal;
+             src: '../fonts/Lato-Thin.ttf' } 
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*Note: I deleted the Bree Serif files out of the fonts folder*/
+
 
 /*
 	Story by HTML5 UP
@@ -16,8 +51,16 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+footer, header, hgroup, menu, output, ruby,
 section, summary, time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+nav {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -211,7 +254,7 @@ iframe {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Lato', sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -303,7 +346,7 @@ iframe {
 
 	code {
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
+		font-family: "Lato";
 		font-size: 0.9em;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.325rem;
@@ -311,7 +354,7 @@ iframe {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Lato", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2rem 0;
 	}
@@ -409,6 +452,7 @@ iframe {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		/*width: 100%;*/
 	}
 
 		.row > * {
@@ -600,7 +644,7 @@ iframe {
 		}
 
 			.row > * {
-				padding: 0 0 0 2rem;
+				padding: 0 0 0 0;
 			}
 
 			.row.gtr-uniform {
@@ -843,7 +887,7 @@ iframe {
 				}
 
 					.row > * {
-						padding: 0 0 0 2rem;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -1085,10 +1129,11 @@ iframe {
 				.row {
 					margin-top: 0;
 					margin-left: -2rem;
+					margin-right: -2rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 2rem;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -1333,7 +1378,7 @@ iframe {
 				}
 
 					.row > * {
-						padding: 0 0 0 2rem;
+						padding: 0 2rem 0 2rem;
 					}
 
 					.row.gtr-uniform {
@@ -1578,7 +1623,7 @@ iframe {
 				}
 
 					.row > * {
-						padding: 0 0 0 2rem;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -1823,7 +1868,7 @@ iframe {
 				}
 
 					.row > * {
-						padding: 0 0 0 2rem;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -2068,7 +2113,7 @@ iframe {
 				}
 
 					.row > * {
-						padding: 0 0 0 2rem;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -2472,7 +2517,7 @@ iframe {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Lato";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2609,7 +2654,7 @@ iframe {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Lato";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2742,8 +2787,13 @@ iframe {
 		padding-left: 1rem;
 	}
 
+		.main-nav ul li {
+			padding-left: 0.5rem;
+		}
+
 		ul li {
 			padding-left: 0.5rem;
+			font-size: 20px;
 		}
 
 		ul.alt {
@@ -6847,7 +6897,7 @@ iframe {
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Lato";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;

@@ -1,0 +1,201 @@
+.highlight span{
+  background-color: rgb(130, 42, 101,.4);
+  font-weight:500;
+}
+
+.zoomaf {
+  /*padding: 50px;*/
+  /*background-color: green;*/
+  transition: transform .2s; /* Animation */
+  /*width: 200px;*/
+  /*height: 200px;*/
+  margin: 0 auto;
+}
+
+.zoomaf:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#mgs .zoomaf:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+a {
+  color: #822a65;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #822a65;
+  outline: none;
+  text-decoration: none;
+}
+
+.ubea-nav ul li.has-dropdown .dropdown li a:hover {
+  color: #822a65;
+}
+
+.bttom a{
+  color: white; 
+  background-color: rgb(130, 42, 101,.7)
+}
+
+/** {
+  margin: 0px;
+  padding: 0px;
+}*/
+
+.box1 {
+  width: 100%;
+  margin: 30px auto;
+  border: 4px solid #822a65;
+  padding: 20px;
+  text-align: center;
+  /*font-weight: 900;*/
+  color: #000;
+  /*font-family: arial;*/
+  position: relative;
+  border-radius: 30px;
+}
+
+.sb7:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #822a65;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #822a65;
+  border-bottom: 10px solid transparent;
+  left: 20px;
+  bottom: -23px;
+}
+
+.sb7:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: 24px;
+  bottom: -13px;
+}
+
+/* speech bubble 13 */
+.sb8:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #822a65;
+  border-top: 10px solid #822a65;
+  border-bottom: 10px solid transparent;
+  right: 20px;
+  bottom: -23px;
+}
+
+.sb8:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  right: 24px;
+  bottom: -13px;
+}
+
+::-webkit-selection {
+  color: #fff;
+  background: #822a65;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #822a65;
+}
+
+::selection {
+  color: #fff;
+  background: #822a65;
+}
+
+.ubea-nav #ubea-logo em {
+  color: #822a65;
+}
+.ubea-nav ul li a:hover, .ubea-nav ul li a:focus, .ubea-nav ul li a:active {
+  color: #822a65;
+}
+.ubea-nav ul li.has-dropdown:hover a, .ubea-nav ul li.has-dropdown:focus a {
+  color: #822a65;
+}
+.ubea-nav ul li.active > a {
+  color: #822a65 !important;
+}
+.ubea-cover a {
+  color: #822a65;
+}
+.ubea-social-icons li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #822a65;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*.ubea-heading h2:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 50px;
+  margin-left: -25px;
+  height: 2px;
+  left: 50%;
+  background: #822a65;
+}*/
+.btn-primary {
+  background: #822a65;
+  color: #fff;
+  border: 2px solid #822a65 !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #822a65;
+  border: 2px solid #822a65;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #822a65;
+  color: #fff;
+}
+
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #822a65;
+}
+.ubea-nav .ubea-contact ul li a i {
+  color: #822a65;
+}
+#ubea-features-3 .feature {
+  width: 33.33%;
+  float: left;
+  padding: 30px;
+  background: #822a65;
+  position: relative;
+  text-align: center;
+}
+.ubea-accordion.active h3 {
+  color: #822a65;
+}
+#ubea-services .feature-left h3 {
+  color: #822a65;
+  font-size: 22px;
+}

@@ -1,0 +1,130 @@
+/*ul .stick{*/
+  /*list-style: none;  Remove default bullets */
+/*}*/
+
+/*ul li::before .sticky{*/
+  /*content: "\2022";   Add content: \2022 is the CSS Code/unicode for a bullet */
+  /*color: red;  Change the color */
+  /*font-weight: bold;  If you want it to be bold */
+  /*display: inline-block;  Needed to add space between the bullet and the text */
+  /*width: 1em;  Also needed for space (tweak if needed) */
+  /*margin-left: -1em;  Also needed for space (tweak if needed) */
+/*}*/
+
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 2px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.highlight span{
+  background-color: rgb(140, 21, 21,.4);
+  font-weight:500;
+}
+
+a {
+  color: #8c1515;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #8c1515;
+  outline: none;
+  text-decoration: none;
+}
+
+.ubea-nav ul li.has-dropdown .dropdown li a:hover {
+  color: #8c1515;
+}
+
+.bttom a {
+  background-color: rgb(140, 21, 21,.7)
+}
+
+::-webkit-selection {
+  color: #fff;
+  background: #8c1515;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #8c1515;
+}
+
+::selection {
+  color: #fff;
+  background: #8c1515;
+}
+
+.ubea-nav #ubea-logo em {
+  color: #8c1515;
+}
+.ubea-nav ul li a:hover, .ubea-nav ul li a:focus, .ubea-nav ul li a:active {
+  color: #8c1515;
+}
+.ubea-nav ul li.has-dropdown:hover a, .ubea-nav ul li.has-dropdown:focus a {
+  color: #8c1515;
+}
+.ubea-nav ul li.active > a {
+  color: #8c1515 !important;
+}
+.ubea-cover a {
+  color: #8c1515;
+}
+.ubea-social-icons li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #8c1515;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-primary {
+  background: #8c1515;
+  color: #fff;
+  border: 2px solid #8c1515 !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #8c1515;
+  border: 2px solid #8c1515;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #8c1515;
+  color: #fff;
+}
+
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #8c1515;
+}
+.ubea-nav .ubea-contact ul li a i {
+  color: #8c1515;
+}
+#ubea-features-3 .feature {
+  width: 33.33%;
+  float: left;
+  padding: 30px;
+  background: #8c1515;
+  position: relative;
+  text-align: center;
+}
+.ubea-accordion.active h3 {
+  color: #8c1515;
+}
+#ubea-services .feature-left h3 {
+  color: #8c1515;
+  font-size: 22px;
+}

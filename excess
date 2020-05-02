@@ -1,0 +1,30 @@
+						<!-- affect supporter / supportee columns -->
+						<div style="width:50%" align="left">
+								<p align="center" style="margin-bottom: 5px;">
+									<b>Supporters</b> 
+								</p>
+								<!-- Findings for the user group ‘people emotionally supporting those with mental illness’ -->
+							
+								<ul align="left" style="font-size:20px; padding-left: 5px; list-style:none;"> 
+									<li style="padding-left: 0px; padding-right:5px"> Support is a mixture of carefully <b>inducing distraction</b> and helping them <b>ride their wave</b> </li>
+									<li style="padding-top: 10px;padding-left: 0px; "> Supporters can <b>leverage the physical</b> environment to help
+									<!-- those with mental illness by moving them to a new location or offering touch -->
+										</li>
+									<li style="padding-top: 10px; padding-left: 0px;"><b>Supporters feel responsible</b> for others’ mental wellbeing
+										<!-- , especially when they are the sole supporter. -->
+									</li>
+								</ul>
+							</div>
+							<div style="width:50%; padding-left: 10px" align="right">
+								<p align="center" style="margin-bottom: 5px;">
+									<b>Supportees</b> 
+								</p>
+								<!-- Findings for the user group ‘people with mental illness’ -->
+							<!-- <p> -->
+								<ul align="left" style="font-size:20px; padding-left: 5px; list-style:none;">
+									<li> People are afraid their emotions (or symptoms <!-- of their mental illness -->) will be <b>judged or misunderstood</b> as controllable</li>
+									<li style="padding-top: 10px; "> Choice of supporter <b>depends on access</b> to those who may understand</li>
+									<li style="padding-top: 10px; "> A supporter can be a window <b>back into reality</b> <!-- for those with mental illness when they are lost in their minds. --></li>
+								</ul>
+							</div>
+						</div>

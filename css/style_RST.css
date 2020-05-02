@@ -1,0 +1,127 @@
+.highlight span{
+  background-color: rgb(61, 186, 78,.4);
+  font-weight:500;
+}
+
+.zoom {
+  /*padding: 50px;*/
+  /*background-color: green;*/
+  transition: transform .2s; /* Animation */
+  /*width: 200px;*/
+  /*height: 200px;*/
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+a {
+  color: #3dba4e;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #3dba4e;
+  outline: none;
+  text-decoration: none;
+}
+
+.ubea-nav ul li.has-dropdown .dropdown li a:hover {
+  color: #3dba4e;
+}
+
+.bttom a{
+  color: white; 
+  background-color: rgb(61, 186, 78,.7)
+}
+
+::-webkit-selection {
+  color: #fff;
+  background: #3dba4e;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #3dba4e;
+}
+
+::selection {
+  color: #fff;
+  background: #3dba4e;
+}
+
+.ubea-nav #ubea-logo em {
+  color: #3dba4e;
+}
+.ubea-nav ul li a:hover, .ubea-nav ul li a:focus, .ubea-nav ul li a:active {
+  color: #3dba4e;
+}
+.ubea-nav ul li.has-dropdown:hover a, .ubea-nav ul li.has-dropdown:focus a {
+  color: #3dba4e;
+}
+.ubea-nav ul li.active > a {
+  color: #3dba4e !important;
+}
+.ubea-cover a {
+  color: #3dba4e;
+}
+.ubea-social-icons li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #3dba4e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*.ubea-heading h2:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 50px;
+  margin-left: -25px;
+  height: 2px;
+  left: 50%;
+  background: #3dba4e;
+}*/
+.btn-primary {
+  background: #3dba4e;
+  color: #fff;
+  border: 2px solid #3dba4e !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #3dba4e;
+  border: 2px solid #3dba4e;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #3dba4e;
+  color: #fff;
+}
+
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #3dba4e;
+}
+.ubea-nav .ubea-contact ul li a i {
+  color: #3dba4e;
+}
+#ubea-features-3 .feature {
+  width: 33.33%;
+  float: left;
+  padding: 30px;
+  background: #3dba4e;
+  position: relative;
+  text-align: center;
+}
+.ubea-accordion.active h3 {
+  color: #3dba4e;
+}
+#ubea-services .feature-left h3 {
+  color: #3dba4e;
+  font-size: 22px;
+}

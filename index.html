@@ -1,14 +1,16 @@
-<<<<<<< HEAD
 <!DOCTYPE HTML>
 <!--
 	uBeasa by freshdesignweb.com
 	Twitter: https://twitter.com/freshdesignweb
 	URL: https://www.freshdesignweb.com
+	 scp affect.html ashulman@myth.stanford.edu:/afs/.ir/users/a/s/ashulman/WWW
+
 -->
-=======
->>>>>>> 490b73e090766ecabc95af41ab37a0aa76ce4d46
 <html>
 	<head>
+	<title>Andrea Shulman's Portfolio</title>
+	<meta name="title" content="Andrea Shulman's Portfolio">
+	<meta name="description" content="UX designer passionate about mental and planetary health">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Andrea Shulman's Portfolio</title>
@@ -18,26 +20,49 @@
 	<meta name="author" content="Andrea Shulman" />
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
+	<meta property="og:title" content="Andrea Shulman's Portfolio"/>
+	<meta property="og:image" content="images/img_bg_1.jpeg"/>
+	<meta property="og:url" content="https://web.stanford.edu/~ashulman/"/>
+	<meta property="og:site_name" content="Andrea Shulman's Portfolio"/>
+	<meta property="og:description" content="UX designer passionate about mental and planetary health"/>
+<!-- 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta name="twitter:card" content="" /> -->
+
+	<!-- Primary Meta Tags -->
+<!-- <title>Andrea Shulman's Portfolio</title>
+<meta name="title" content="Andrea Shulman's Portfolio">
+<meta name="description" content="UX designer passionate about mental and planetary health">
+
+<!- Open Graph / Facebook --><!-- 
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://metatags.io/">
+<meta property="og:title" content="Andrea Shulman's Portfolio">
+<meta property="og:description" content="UX designer passionate about mental and planetary health">
+<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+<! Twitter -->
+<!-- <meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://metatags.io/">
+<meta property="twitter:title" content="Andrea Shulman's Portfolio">
+<meta property="twitter:description" content="UX designer passionate about mental and planetary health">
+<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"> -->
 
 	<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> -->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
+	<!-- above has the title on the big images -->
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Themify Icons-->
 	<link rel="stylesheet" href="css/themify-icons.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- above fixes top pic and toolbar and resizes logo -->
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Owl Carousel  -->
@@ -46,12 +71,13 @@
 	<!-- Flexslider -->
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_pensieve.css">
+	<link rel="stylesheet" href="css/stylepen.css"> 
+	<!-- above is where the shitty ass logo is and is more font for headings-->
 
 	<link rel="stylesheet" href="css/gall.css" />
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- <link rel="stylesheet" href="css/gall2.css" /> -->
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -63,21 +89,37 @@
 	<div class="ubea-loader"></div>
 	
 	<div id="page">
-	<nav class="ubea-nav" role="navigation">
+	<nav class="ubea-nav" role="navigation" style=" padding-top: 9px; padding-bottom: 9px">
 		<div class="ubea-container">
 			<div class="row">
 				<div class="col-sm-2 col-xs-12">
-					<div id="ubea-logo"><a href=".">Andrea&nbsp;&nbsp;Shulman<em>.</em></a></div>
+					<!-- <img src="images/heh.jpg" alt="Bose"/> -->
+					<div id="ubea-logo"><a href="./" class="external"><img src="images/longlogo.jpg" alt="Andrea Shulman" style="vertical-align: middle; width: 120%;"/></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1 main-nav">
 					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<!-- <li class="active"><a href="#" data-nav-section="home">Home</a></li> -->
 						<!-- <li><a href="#" data-nav-section="services">Services</a></li> -->
-						<li><a href="#" data-nav-section="portfolio">Design Portfolio</a></li>
-						<li><a href="#" data-nav-section="tech">Skills</a></li>
-						<li><a href="#" data-nav-section="lead">Leadership</a></li>
-                        <li><a href="#" data-nav-section="about">About Me</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
+						<li class="active"> 
+							<!-- class="has-dropdown" -->
+							<a href="."  style="color: #5ac2df;">Design Portfolio</a>
+							<!-- <div class="dropdown">
+								<ul>
+							        <li><a style="text-decoration:none" onclick="location.replace('./bose.html'),'_top'" class="dropdown-item">Bose</a></li>
+							        <li><a style="text-decoration:none" onclick="location.replace('./codecoral.html'),'_top'" class="dropdown-item">Code Coral</a></li>
+							        <li><a style="text-decoration:none" onclick="location.replace('./affect.html'),'_top'" class="dropdown-item">Affect</a></li>
+							        <li><a style="text-decoration:none" onclick="location.replace('./neurodiversity.html'),'_top'" class="dropdown-item">Neurodiversity</a></li>
+							        <li><a style="text-decoration:none" onclick="location.replace('./RST.html'),'_top'" class="dropdown-item">Screen Time</a></li>
+							        <li><a style="text-decoration:none" onclick="location.replace('./pensieve.html'),'_top'" class="dropdown-item">Pensieve</a></li>
+							    </ul>
+						    </div> -->
+						</li>
+							<li><a href="./aboutme.html" class="external" >About Me</a></li>
+
+						<!-- <li><a href="#" data-nav-section="tech">Skills</a></li> -->
+						<!-- <li><a href="#" data-nav-section="lead">Leadership</a></li> -->
+                        <!-- <li><a href="#" data-nav-section="about">About Me</a></li> -->
+						<!-- <li><a href="#" data-nav-section="contact">Contact</a></li> -->
 						<!-- <li><a href="https://www.freshdesignweb.com/" class="external">External</a></li> -->
 					</ul>
 				</div>
@@ -90,473 +132,261 @@
 		<div class="flexslider js-fullheight">
 			<ul class="slides">
 		   	<li style="background-image: url(images/img_bg_1.jpeg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
+		   		<!-- <div class="overlay"  align="center"></div> -->
+		   		<div class="container" align="center">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>My&nbsp;&nbsp;name&nbsp;&nbsp;is&nbsp;&nbsp;Andrea</h2>
+		   				<div class="slider-text-inner" style="position:relative" align="center;">
+		   					<div style="padding-top: 30vh">
+		   					<h2 class = "highlight" align="center" style="text-align:center"> <span style="text-align:center"> Hi!&nbsp;&nbsp;I'm&nbsp;&nbsp;Andrea</span></h2>
 		   					<!-- <p><a href="http://twitter.com/freshdesignweb" target="_blank" class="btn btn-primary btn-lg">Follow @freshdesignweb</a></p> -->
-		   					<p style="display: inline; font-size:21px; color: #fff;">I am a junior at Stanford and aspiring UX Designer passionate about reshaping the mental healthcare space.</p>
+		   					<p class = "highlight" style="font-size:21px; text-align:center; color: #FFF;"><span> UX designer passionate about mental and planetary health</span> </p>
+		   					</div>
+		   					<div style="color:white; margin: 0px"class="arrow bounce highlight fa fa-arrow-down fa-2x "><br/><br/><br/><br/><br/>
+							  <span><i class="icon-arrow-down"></i> Designed and coded by me with love <i class="icon-arrow-down"></i></span>
+							  <!-- other down arrow: &#8681; -->
+							</div>
 		   				</div>
 		   			</div>
+
 		   		</div>
 		   	</li>
-		   	<!-- <li style="background-image: url(images/img_bg_2.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Creative. Innovative.Intuitive.</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/img_bg_3.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>A new experience.</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li> -->
 		  	</ul>
 	  	</div>
 	</div>
+	<div> <p class="pic_loc" >San Pedro de Atacama (Desert), Chile</p><p class="pic_date">May 26, 2018</p></div>
+	<p align="center" style="text-align: justify; "><span class="chrome" align="center" style="text-align: center; display: block;"><br />Please view on a desktop using Google Chrome for the best experience.</span></p>
+
+	<!-- add a little padding so not on the edge of the screen, make on the same line -->
+	<!-- <div align="right" position="relative">November 16, 2019<div> -->
+	
 
 	<div class="ubea-section-overflow">
 
-		<!-- <div class="ubea-section" id="ubea-services" data-section="services">
-			<div class="ubea-container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="ubea-heading">
-							<h2 class="ubea-left">Services</h2>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="row">
-
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-umbrella"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Wealth Management</h3>
-										<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla cursus pharetra massa at lacinia Fusce eleifhend Fusce in dapibus.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-monitor"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Investment Banking</h3>
-										<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla cursus pharetra massa at lacinia Fusce eleifhend Fusce in dapibus.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-cup"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Sales and Trading</h3>
-										<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla cursus pharetra massa at lacinia Fusce eleifhend Fusce in dapibus.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeIn">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-pencil"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Strategic Planning</h3>
-										<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla cursus pharetra massa at lacinia Fusce eleifhend Fusce in dapibus.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-cog"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Turnaround Consulting</h3>
-										<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla cursus pharetra massa at lacinia Fusce eleifhend Fusce in dapibus.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-layers"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Bonds & Commodities</h3>
-										<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla cursus pharetra massa at lacinia Fusce eleifhend Fusce in dapibus.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
+	
 		<div class="ubea-section" id="ubea-portfolio" data-section="portfolio">
 			<div class="ubea-container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
+					<div class="col-md-6 col-md-offset-2 ubea-heading">
 						<h2>Design Portfolio</h2>
-						<p>For the most part, I utilize the design process taught by the Hasso Plattner Institute of Design at Stanford (affectionately called the d.school).</p>
+						<p>For information on my process, check out my <a href="./aboutme.html"><u>About Me</u></a> page!</p>
+						<!-- <div align="left" style="width: 80%; display:inline-flex; justify-content: space-between">
+							<p style="width:12%; margin:auto;"align="left"> fall 2018</p>
+							<img src="images/timeish.jpg" alt="timeline" align="center" style="width:70%;">
+							<p style="width:8%; margin:auto;"align="right"> today</p>
+							<!-<p>Questions  |  Category/ Use Scenario  |  Question Origin  |  More Info     </p> ->
+						</div> -->
 					</div>
-				
-					<div class="gallery style2 medium lightbox onscroll-fade-in" style=" display: flex; justify-content: space-around; justify-content: space-between; width: 100%">
-						<article class="ubea-card-item" style="width: 33%">
-							<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%);">
-								<img  src="images/pensievelogo.png" alt="Pensieve"/>
-							</div>
-							<div class="caption">
-								<h2 class="" style="font-size: 2.3vw;">Pensieve</h2>
-								<h3 style="font-size: 1.7vw;">reflection&nbsp;&nbsp;made&nbsp;&nbsp;simple</h3>
-								<br />
-								<h5 style="font-size: 1.6vw; text-align: justify; text-justify: inter-word;">
-									In the fall of 2018, I worked with on a team of four to create an application to encourage consistent reflection. Our app offers an infinite canvas with multimodal and goal-setting capabilities.
-									<a href="./pensieve.html"><u>Learn more and see the process here.</u></a>
-								</h5>
-							</div>
-						</article>
-						<article class="ubea-card-item" style="width: 33%">
-							<div class="image card" >
-								<img src="images/codecoral.png" alt="Code Coral" style="margin-left: auto;margin-right: auto;" src="images/pensievelogo.png" />
-							</div>
-							<div class="caption">
-								<h2 style="font-size: 2.3vw;">Code&nbsp;&nbsp;Coral</h2>
-								<h3 style="font-size: 1.7vw;">assessing&nbsp;&nbsp;physician&nbsp;&nbsp;burnout</h3>
-								<br />
-								<h5 style="font-size: 1.6vw; text-align: justify; text-justify: inter-word;">Along with a team of master's students and under the direction of many advisors (including the d.school's David Kelley), I am iterating on prototypes assessing physician burnout.</h5>
-								<p style="font-size: 1.3vw;"> Current project, more coming soon </p>
-							</div>
-						</article>
-						<article class="ubea-card-item" style="width: 33%">
-							<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%);">
-								<img src="images/affect.png" alt="Affect Mental Healthcare" style="margin-left: auto;margin-right: auto;" src="images/pensievelogo.png" />
-							</div>
-							<div class="caption">
-								<h2 style="font-size: 2.3vw;">Affect&nbsp;&nbsp;Mental&nbsp;&nbsp;Healthcare</h2>
-								<h3 style="font-size: 1.6vw;">supporting&nbsp;&nbsp;those&nbsp;&nbsp;supporting&nbsp;&nbsp;others</h3>
-								<br />
-								<h5 style="font-size: 1.5vw; text-align: justify; text-justify: inter-word;">This was my first independent user experience research project from winter 2019. I have pinpointed user needs through needfinding interviews and brainstorming for those who hope to aid supporters. <a href="./affect.html"><u>Learn more and see the process here.</u></a></h5>
-
-							</div>
-						</article>
-					</div>
-<<<<<<< HEAD
-					<h4 align="center" style="text-align: justify; text-justify: inter-word;"> Behavior &nbsp;Design&nbsp; for&nbsp; <b>Reducing&nbsp; Screen &nbsp;Time</b>: &nbsp;90 &nbsp;minute &nbsp;design &nbsp;sprint&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.google.com/presentation/d/1MmIg6cZsBc-DvVSVe0a9EaU6nuTJ7G9GCrpw3lmLG6o/edit?usp=sharing"><u>Click &nbsp;here to&nbsp; see&nbsp; the&nbsp; project</u></a> </h4> 
-=======
-
->>>>>>> 490b73e090766ecabc95af41ab37a0aa76ce4d46
-				</div>
-			</div>
-				<!-- <div class="row"> -->
-					<!-- <div class="col-md-4">
-						<div class="ubea-card-item" >
-							<a href="http://web.stanford.edu/class/cs147/projects/Travel/Pensieve/"  -
-							<figure>
-								<div class="overlay caption"><center> reflection made simple </center></div>
-								<img src="images/pensievelogo.png" alt="Image" class="img-responsive">
-							</figure>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="ubea-card-item">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="images/codecoral.png" alt="Image" class="img-responsive">
-							</figure>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="ubea-card-item">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="images/affect.png" alt="Image" class="img-responsive">
-							</figure>
-						</div>
-					</div> -->
-
-					<!-- <div class="col-md-4">
-						<a href="images/img_4.jpg" class="ubea-card-item image-popup" title="Project name here.">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="images/img_4.jpg" alt="Image" class="img-responsive">
-							</figure>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="images/img_5.jpg" class="ubea-card-item image-popup" title="Project name here.">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="images/img_5.jpg" alt="Image" class="img-responsive">
-							</figure>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="images/img_6.jpg" class="ubea-card-item image-popup" title="Project name here.">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="images/img_6.jpg" alt="Image" class="img-responsive">
-							</figure>
-						</a>
-					</div>
-				</div> -->
-			<!-- </div> -->
-		</div>
-        
-		<div class="ubea-section" id="ubea-tech" data-section="tech">
-			<div class="ubea-container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center ubea-heading"  style=" width=100%; flex-wrap: wrap;">
-						<h2>Skills</h2>
-						<br/>
-						<p>Feel free to reach out for my transcript or for more information.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6" style="margin: 0 auto; width=100vw; ">
-
-						<div class="ubea-accordion">
-							<div class="ubea-accordion-heading">
-								<div class="icon"><i class="icon-cross"></i></div>
-								<h3>Coursework</h3>
-							</div>
-							<div class="ubea-accordion-content">
-								<div class="inner">
-									<h7> <b>Design</b></h7>
-									<p>
-										<a target="_blank" href="https://dschool.stanford.edu/classes/transformative-design"><u>Transformative Design,</u>&nbsp;&nbsp;</a>
-										<a target="_blank" href="https://cs147.stanford.edu"><u>Design Thinking for User Experience Design, Prototyping and Evaluation,</u>&nbsp;&nbsp;</a>
-<<<<<<< HEAD
-										<a target="_blank" href="http://jeffshrager.org/symsys/schedule.html"><u>Cognition in Interaction Design,</u> </a> &nbsp;&nbsp;
-=======
-										<a target="_blank" href="http://jeffshrager.org/symsys/schedule.html">Cognition in Interaction Design, </a> &nbsp;&nbsp;
->>>>>>> 490b73e090766ecabc95af41ab37a0aa76ce4d46
-										<a target="_blank" href="https://dschool.stanford.edu/classes/pop-out-design-for-a-resilient-mind"><u>Design for a Resilient Mind,</u>&nbsp;&nbsp;</a>
-										<a target="_blank" href="http://designimpact.stanford.edu/idea-to-impact/"><u>Design Impact Master's Project II</u></a>
-									</p>
-									<h7><b>Technology</b></h7>
-									<p>Computer Organization and Systems, Web Applications, Programming Abstractions, The Rhetoric of Humans and Machines, The Social and Economic Impact of Artificial Intelligence, Probability for Computer Scientists, Minds and Machines, Human-Computer Interaction Seminar</p>
-									<h7> <b>Psychology/Mental Health/etc. </b></h7>
-									<p>Leadership and Innovation in Mental Healthcare, Introduction to Social Psychology, Anthropological and Psychiatric Approaches to Mental Illness, Introduction to Cognitive Neuroscience, Computation and Cognition, Emotional Intelligence</p>
-									<h7> <b>Language </b></h7>
-									<p>First Year Spanish, Accelerated Second-Year Spanish Part I, Spanish Language Tutorial</p>
-									<h7> <b>Leadership </b></h7>
-									<p>Interpersonal Learning and Leadership, Outdoor Leadership Practicum, Emotional Intelligence</p>
-									<h7><b> Philosophy</b> </h7>
-									<p>
-										Mind Matter and Meaning, Evil, Epistemology </p>
-									<h7><b> Linguistics</b> </h7>
-									<p>
-										Introduction to Linguistics, Introduction to Semantics and Pragmatics</p>
-									<h7><b> Earth Sciences</b> </h7>
-										<p>
-										Introduction to Earth Systems, Living Chile: A Land of Extremes
-										</p>
-									<h7><b> Math</b> </h7>
-									<p>
-										Mathematic Foundations of Computing, Linear Algebra and Differential Calculus of Several Variables, 
-									</p>
+					
+					<div class="gallery style2 medium lightbox onscroll-fade-in" style=" display: flex; justify-content: space-around; width: 100%"> 
+						<!-- justify-content: space-between; ^ -->
+						<article class="ubea-card-item" style="width: 33%; height: 53vh; background: #000">
+							<a href="./bose.html">
+								<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background:#000">
+									<img src="images/boselog.jpg" alt="Bose"/>
 								</div>
-							</div>
-						</div>
-						<div class="ubea-accordion">
-							<div class="ubea-accordion-heading">
-								<div class="icon"><i class="icon-cross"></i></div>
-								<h3>Programming&nbsp;&nbsp;and&nbsp;&nbsp;Design&nbsp;&nbsp;Proficiency&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-							</div>
-							<div class="ubea-accordion-content">
-								<div class="inner">
-									<p> Figma, InVision, Wireframing, Rapid Prototyping, User Flows, Usability Testing, User Interviewing, Design Thinking, Journey Mapping
+								<div class="caption">
+									<h2 style="font-size: 2.3vw; ">Hear&nbsp;&nbsp;Less.&nbsp;&nbsp;Hear&nbsp;&nbsp;More.</h2>
+									<h3 style="font-size: 1.7vw; ">sleep&nbsp;&nbsp;and&nbsp;&nbsp;hear</h3>
+									<h3 style="font-size: 1.4vw;">Summer&nbsp;&nbsp;2019</h3>
 									<br />
-									<p>C++, C, JavaScript, Python, Java, HTML, CSS, Git, Swift, UNIX, Node.js</p>
+									<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;"><!-- Bose is now taking on the world of Health, helping people who difficulties sleeping and hearing. I helped design products set to come out in the next couple years in both spaces. -->
+										Determined user interactions, needs, and scenarios, and designed hardware sketches for future products. Under NDA.
+										<!-- Worked on two future-generation products determining user interactions, needs, etc. as well as hardware design. Under NDA. -->
+										<!-- Under NDA project, two future products and some work defining  -->
+										<!-- Bose is taking on the world of Health, helping people with difficulties sleeping and hearing. -->
+									</h5>
+									<!-- <a href="./Bose.html" style="font-size: 1.3vw; margin-bottom: 4px" ><u>Coming soon</u></a> -->
+									<!-- <p style="font-size: 1.3vw;"> Coming soon </p> -->
 
 								</div>
-							</div>
-						</div>
-						<div class="ubea-accordion">
-							<div class="ubea-accordion-heading">
-								<div class="icon"><i class="icon-cross"></i></div>
-								<h3>Work&nbsp;&nbsp;Experience</h3>
-							</div>
-							<div class="ubea-accordion-content">
-								<div class="inner">
-									<p>
-										RFID Implementation Intern {Summer 2018}
-										<br/>
-										<img style="float: right; width: 130px; height: 80px; position: relative; top: -30px;" src="./images/JCI.png" alt="Johnson Controls">
-										RFID testing, retail solutions, pair-programmed using computer vision and object tracking<a style="float: right" target="_blank" href="./pdfs/jcirec.pdf"><u>Recommendation</u></a>
-										<br/>
-										<br/>
-										Junior Fellow
-										<br/>
-										<img style="float: right; width: 130px; height: 70px; position: relative; top: -20px;" src="./images/brainstorm2.png" alt="Brainstorm Laboratories">
-										Creating a global network of people and companies interested in mental health technologies
-										<br/>
-										<br/>
-										IT Intern {Summers 2014-2016}
-										<br/>
-										<img style="float: right; width: 130px; height: 80px; position: relative; top: -20px;" src="./images/lynn.png" alt="Lynn University">
-										Revamped inventory database, fostered iPad program school-wide <a style="float: right" target="_blank" href="./pdfs/lynnrec.pdf"><u>Recommendation</u></a>
-									</p>
+							</a>
+						</article>
+						<article class="ubea-card-item" style="width: 33%; height: 53vh; background: #ff5126">
+							<a href="./codecoral.html">
+								<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: #ff5126">
+									<img src="images/corallog.jpg" alt="Code Coral" style="margin-left: auto;margin-right: auto;"/>
 								</div>
-							</div>
-						</div>
-						<div class="ubea-accordion">
-							<div class="ubea-accordion-heading">
-								<div class="icon"><i class="icon-cross"></i></div>
-								<h3>Research</h3>
-							</div>
-							<div class="ubea-accordion-content">
-								<div class="inner">
-									<p>
-										Helped design an online eating disorder rehabilitation program 
-										<a style="float: right" target="_blank" href="./pdfs/EDposter.pdf"><u>ISRII Poster</u></a>
-										<br/>
-										Programmed and designed experiments studying generalization 
-										<a style="float: right" target="_blank" href="https://cocolab.stanford.edu/index.html"><u>Lab Site</u></a>
-										<br/>
-										Bayesian models for scene-level Adelson illusion
-										<a style="float: right" target="_blank" href="./pdfs/psych204.pdf"><u>Paper</u></a>
-									</p>
+								<div class="caption">
+									<h2 style="font-size: 2.3vw;">Coral&nbsp;&nbsp;Connect</h2>
+									<h3 style="font-size: 1.7vw;">physician&nbsp;&nbsp;burnout</h3>
+									<h3 style="font-size: 1.4vw;">Winter-Spring&nbsp;&nbsp;2019</h3>
+									<br />
+									<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;"><!-- Along with a team of master's students and under the direction of many advisors (including the d.school's David Kelley), I am iterating on prototypes assessing physician burnout. -->
+										Reimagined how physicians interact with resources by assessing their stress state; at Stanford Children's Hospital.
+										<!-- With frequent visits to the Stanford Children's Hospital, we leveraged hospital resources for physicians based on stress states.  -->
+										<!-- I joined a Design Impact Master's group to provide physicians with resources  based on stress states. -->
+									</h5>
+									<!-- <a href="./pdfs/coralsum.pdf" style="font-size: 1.3vw; margin-bottom: 4px"> <u> One-sheet summary </u></a> -->
 								</div>
-							</div>
-						</div>
-						<!-- <div class="ubea-accordion"> -->
-							<div id="resume">
-								<a target="_blank" style="float: right" href="./pdfs/curResume.pdf"><u>Link</u></a>
-								<h3><a target="_blank" href="./pdfs/curResume.pdf">Resume</a></h3>
-							</div>
+							</a>
+						</article>
+						<article class="ubea-card-item" style="width: 33%; height: 53vh; background: #822a65">
+							<a href="./affect.html">
+								<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: #822a65">
+									<img src="images/affectlog.jpg" alt="Affect Mental Healthcare" style="margin-left: auto;margin-right: auto;" />
+								</div>
+								<div class="caption">
+									<h2 style="font-size: 2.3vw;">Supporting&nbsp;&nbsp;Supporters</h2>
+									<h3 style="font-size: 1.6vw;">mental&nbsp;&nbsp;illness&nbsp;&nbsp;user&nbsp;&nbsp;research</h3>
+									<h3 style="font-size: 1.4vw;">Winter&nbsp;&nbsp;2019</h3>
+									<br />
+									<h5 style="font-size: 1.7vw; text-align: center; text-justify: center;"><!-- This was my first independent user experience research project from winter 2019. I have pinpointed user needs through needfinding interviews and brainstorming for those who hope to aid supporters.  -->
+										Pinpointed supporter needs through interviews and brainstorming; my first independent design project.
+										<!-- <a href="./affect.html"><u>Learn more and see the process.</u></a> -->
+									</h5>
+
+									<!-- <a href="./affect.html" style="font-size: 1.3vw; margin-bottom: 4px" ><u>Learn more and see the process.</u></a> -->
+
+								</div>
+							</a>
+						</article>
+					</div>
+
+					<!-- add dropdown for more -->
+					<!-- <div class="ubea-accordion"> -->
+						<!-- <div align="center" class="ubea-accordion-heading" style="padding-bottom: 5px; padding-top: 5px"> -->
+							<!-- <h3 style="border: 2px solid rgb(197, 66, 199); border-radius: 10px; width: 10%; padding-bottom: 5px; padding-top: 5px;text-align: center; font-weight: 400;"> see more </h3> -->
 						<!-- </div> -->
+						<!-- <div class="ubea-accordion-content"> -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in" style=" display: flex; justify-content: space-around; width: 100%;">
+								<article class="ubea-card-item" style="width: 33%; height: 53vh; background: #8c1515" >
+									<a href="./neurodiversity.html" >
+										<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: #8c1515">
+											<img src="images/neurolog.jpg" alt="Neurodiversity" />
+										</div>
+										<div class="caption">
+											<h2 style="font-size: 2.3vw;">Neurodiverse&nbsp;&nbsp;Student&nbsp;&nbsp;Life</h2>
+											<h3 style="font-size: 1.7vw;">building&nbsp;&nbsp;inclusive&nbsp;&nbsp;spaces</h3>
+											<h3 style="font-size: 1.4vw;">Spring&nbsp;&nbsp;2019</h3>
+											<br />
+											<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;"><!-- Our goal is to improve mental health for neurodiverse populations using universal design. We are focusing on systemic change to take on issues of social isolation lack of access to support. --> 
+												Utilized Universal Design to systematically improve neurodiverse populations' mental health in university.
+												<!-- Using Universal Design, we sought to improve neurodiverse populations' mental health systemically. -->
+											</h5>
+											<!-- <a href="./neurodiversity.html" style="font-size: 1.3vw; margin-bottom: 4px" ><u>Learn more and see the process.</u></a> -->
+										</div>
+									</a>
+								<!-- </article> -->
+								</article>
+								<article class="ubea-card-item" style="width: 33%; height: 53vh; background: #3dba4e ">
+									<a href="./RST.html">
+										<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: #3dba4e">
+										
+										<img  src="images/rstlog.png" alt="Screen Time" style="background: #3dba4e"/>
+										</div>
+										<div class="caption">
+											<h2 class="" style="font-size: 2.3vw;">Reducing Screen Time</h2>
+											<h3 style="font-size: 1.7vw;">behavior&nbsp;&nbsp;solution&nbsp;&nbsp;matching</h3>
+											<h3 style="font-size: 1.4vw;">Spring&nbsp;&nbsp;2019</h3>
+											<br />
+											<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;">
+												<!-- In a class of 15, I learned how to design with various sized teams from week to week. BJ Fogg, top behavior scientist, taught us behavior design methods to utilize in creating screen time reduction technologies.  -->
+												Created a screen time reduction strategy engine that leverages Behavior Design under top behavior scientest BJ Fogg.
+												<!-- With BJ Fogg, top behavior scientist, to create screen time reduction technologies using Behavior Design. -->
+											</h5>
+											<!-- <a href="./RST.html" style="font-size: 1.3vw; margin-bottom: 4px" ><u>Learn more and see the process.</u></a> -->
+											<!-- <p style="font-size: 1.3vw;"> Current project, more coming soon </p> -->
 
-					</div>
-					<!-- <div class="col-md-6">
+										</div>
+									</a>
+								</article>
+								<article class="ubea-card-item" style="width: 33%; height: 53vh;; background: #41b7fc">
+									<a href="./pensieve.html">
+										<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: #41b7fc">
+											<img  src="images/penlog.jpg" alt="Pensieve"/>
+										</div>
+										<div class="caption">
+											<h2 style="font-size: 2.3vw;">Pensieve</h2>
+											<h3 style="font-size: 1.7vw;">reflection&nbsp;&nbsp;made&nbsp;&nbsp;simple</h3>
+											<h3 style="font-size: 1.4vw;">Fall&nbsp;&nbsp;2018</h3>
+											<br />
+											<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;">
+												<!-- My first UX project, I hoped to encourage consistent reflection; to do so we created  -->Designed infinite canvas with multimodal and goal-setting capabilities to encourage consistent reflection.
+												<!-- <a href="./pensieve.html"><u>Learn more and see the process.</u></a> -->
+											</h5>
 
-						<div class="ubea-accordion">
-							<div class="ubea-accordion-heading">
-								<div class="icon"><i class="icon-cross"></i></div>
-								<h3>Research</h3>
+											<!-- <a href="./pensieve.html" style="font-size: 1.3vw; margin-bottom: 4px" ><u>Learn more and see the process.</u></a> -->
+										</div>
+									</a>
+								</article>
 							</div>
-							<div class="ubea-accordion-content">
-								<div class="inner">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sed sequi rerumar quasi repellat eum earum praesentium totam! Quia, voluptas eaque anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. </p>
-								</div>
+							<div class="gallery style2 medium lightbox onscroll-fade-in" style=" width: 100%;display: flex; justify-content: space-around; padding-bottom:40px;">
+								<article class="ubea-card-item" style="width: 33%; height: 53vh;; background: yellow">
+									<a href="./exploratorium.html">
+										<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: yellow;height:100% ">
+											<img style="height:100%" src="images/brazil.png" alt="Exploratorium"/>
+										</div>
+										<div class="caption">
+											<h2 style="font-size: 2.3vw;">Imagining&nbsp;&nbsp;the&nbsp;&nbsp;Future</h2>
+											<h3 style="font-size: 1.7vw;">instilling&nbsp;&nbsp;self&nbsp;&nbsp;confidence</h3>
+											<h3 style="font-size: 1.4vw;">December&nbsp;&nbsp;2019</h3>
+											<br />
+											<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;">
+												<!-- My first UX project, I hoped to encourage consistent reflection; to do so we created  -->Defined the theme and kicked off exhibit production for a new museum project in Brazil.
+												<!-- <a href="./pensieve.html"><u>Learn more and see the process.</u></a> -->
+											</h5>
+											<br/><br/>
+											<h6>Coming soon</h6>
+										</div>
+									</a>
+								</article>
+								<article class="ubea-card-item" style="width: 33%; height: 53vh;; background: rgb(24,155,204)">
+									<!-- <a href="./align.html"> -->
+										<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: rgb(24,155,204); ">
+											<img style="" src="images/align.jpg" alt="Exploratorium"/>
+
+										</div>
+										<div class="caption">
+											<h2 style="font-size: 2.3vw;">The&nbsp;&nbsp;Invoicing&nbsp;&nbsp;Problem</h2>
+											<h3 style="font-size: 1.7vw;">Align&nbsp;&nbsp;Tech&nbsp;&nbsp;(Invisalign)</h3>
+											<h3 style="font-size: 1.4vw;">Winter&nbsp;&nbsp;2020</h3>
+											<br />
+											<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;">
+												<!-- My first UX project, I hoped to encourage consistent reflection; to do so we created  -->Leading a corporate design team to solve invoicing through improving doctor-business relations
+												<!-- <a href="./pensieve.html"><u>Learn more and see the process.</u></a> -->
+											</h5>
+											<br/><br/>
+											<h6>Coming soon</h6>
+										</div>
+									<!-- </a> -->
+								</article>
+								<article class="ubea-card-item" style="width: 33%; height: 53vh;; background: #FF001A">
+									<!-- <a href="./personal.html"> -->
+										<div class="image card" style="margin: 0;position: absolute;top: 50%;transform: translateY(-50%);-ms-transform: translateY(-50%); background: #FF001A;height:100% ">
+											<img style="height:100%" src="images/gsb.jpg" alt="Exploratorium"/>
+											<!-- Mental Health education strategy -->
+										</div>
+										<div class="caption">
+											<h2 style="font-size: 2.3vw;">Mental&nbsp;&nbsp;Health&nbsp;&nbsp;Education</h2>
+											<h3 style="font-size: 1.7vw;">nonprofit&nbsp;&nbsp;business&nbsp;&nbsp;strategy</h3>
+											<h3 style="font-size: 1.4vw;">Fall&nbsp;&nbsp;2019</h3>
+											<br />
+											<h5 style="font-size: 1.7vw; text-align: center; text-justify: left;">
+												<!-- My first UX project, I hoped to encourage consistent reflection; to do so we created  -->Defined problem, theory of change, metrics, evaluation plan, and premortem for program to help struggling teens.
+												<!-- <a href="./pensieve.html"><u>Learn more and see the process.</u></a> -->
+											</h5>
+											<br/><br/>
+											<h6>Coming soon</h6>
+										</div>
+									<!-- </a> -->
+								</article>
 							</div>
 						</div>
-						<div class="ubea-accordion">
-							<div class="ubea-accordion-heading">
-								<div class="icon"><i class="icon-cross"></i></div>
-								<h3>Can I have a username that is already taken?</h3>
-							</div>
-							<div class="ubea-accordion-content">
-								<div class="inner">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sed sequi rerumar quasi repellat eum earum praesentium totam! Quia, voluptas eaque anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. </p>
-								</div>
-							</div>
-						</div>
-						<div class="ubea-accordion">
-							<div class="ubea-accordion-heading">
-								<div class="icon"><i class="icon-cross"></i></div>
-								<h3>Is uBeasa free?</h3>
-							</div>
-							<div class="ubea-accordion-content">
-								<div class="inner">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sed sequi rerumar quasi repellat eum earum praesentium totam! Quia, voluptas eaque anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. </p>
-								</div>
-							</div>
-						</div>
-
 					</div>
-				</div> -->
-			</div>
-		</div>
-
-	</div>
-    
-	<div id="ubea-blog" data-section="lead">
-		<div class="ubea-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
-					<h2>Leadership</h2>
-
-					<div class="gallery style2 medium lightbox onscroll-fade-in" style=" display: flex; justify-content: space-around; justify-content: space-between;">
-						<article class="ubea-card-item">
-							<div class="image">
-								<img src="images/staff.jpg" alt="Resident Assistant" style="width: 360px;height: 330px;"/>
-							</div>
-							<div class="caption">
-								<h2>West Florence Moore Hall</h2>
-								<h3>Resident Assistant</h3>
-								<br />
-								<h5>On a team of 14 student staffers, I create a community for both freshmen and upperclassmen. These positions are very competitive and are vital to provide students with the true Stanford experience.</h5>
-							</div>
-						</article>
-						<article class="ubea-card-item">
-							<div class="image">
-								<img src="images/channel.jpg" alt="Outdoor Leadership" style="width: 360px;height: 330px;"/>
-							</div>
-							<div class="caption">
-								<h2>Stanford Outdoor Education</h2>
-								<h3>Trip Leader</h3>
-								<br />
-								<h5>I work with one or two coleaders to introduce fellow students to the outdoors. I most enjoy backpacking on the weekends to new places.</h5>
-							</div>
-						</article>
-					</div>
-
 				</div>
 			</div>
-	    </div>
-    </div>
-
-
-
-    <div id="ubea-blog" data-section="about">
-		<div class="ubea-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
-					<h2>About&nbsp;&nbsp;Me</h2>
-					<p>Currently a junior at Stanford University, I am studying to become a UX Designer. User focused design brings together my many passions: understanding people, creating new technologies, and facilitating teamwork. I am working towards making a difference in mental healthcare and believe user-focused technology will provide a much needed solution. In my spare time, I enjoys outdoor adventures and cheap travel; feel free to ask me to share stories!</p>
-				</div>
-			</div>
-	    </div>
-    </div>
+        
+		
       
-	<div id="ubea-contact" data-section="contact" class="ubea-cover ubea-cover-xs" style="background-image:url(images/img_bg_2.jpeg);">
+	<div id="ubea-contact" data-section="contact" class="ubea-cover ubea-cover-xs" style="background-image:url(images/seattle.jpeg); ">
 		<div class="overlay"></div>
 		<div class="ubea-container">
 			<div class="row text-center">
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-12" style="width: 100%">
-							<h3>If&nbsp;&nbsp;you&nbsp;&nbsp;have&nbsp;&nbsp;questions&nbsp;&nbsp;please&nbsp;&nbsp;email&nbsp;&nbsp;me&nbsp;&nbsp;at&nbsp;&nbsp;<a target="_blank" href="#">ashulman@stanford.edu</a></h3>
+							<h3 class="bttom" style=" text-align:center; color: #FFF">Let's&nbsp;&nbsp;work&nbsp;&nbsp;together! <br /> <a target="_blank" href="andreashulman@gmail.com" style="text-align:center; color: #FFF">andreashulman@gmail.com</a></h3>
 						</div>
-						<br/> <br/><br/> <br/>
 						<ul class="ubea-social-icons">
 							<li><a target="_blank" href="https://www.linkedin.com/in/andreashulman18/"><i class="icon-linkedin"></i></a></li>
 							<li><a target="_blank" href="https://github.com/ashulman18"><i class="icon-github"></i></a></li>
@@ -572,12 +402,12 @@
 		<!-- <div class="ubea-container"> -->
 			
 			<!-- <div class="row copyright"> -->
-				<div class="col-md-12">
+				<!-- <div class="col-md-12">
 					<center>
 						<small class="block">&copy; 2018 freshDesignweb. All Rights Reserved.</small> 
 						<small class="block">Designed by <a target="_blank" href="https://www.freshdesignweb.com/" target="_blank">freshDesignweb.com</a> with heavy editing by Andrea Shulman</small>
 					</center>
-				</div>
+				</div> -->
 			<!-- </div> -->
 
 		<!-- </div> -->

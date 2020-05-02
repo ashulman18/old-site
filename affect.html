@@ -15,7 +15,7 @@
 	<meta name="author" content="Andrea Shulman" />
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
+	<meta property="og:title" content="Affect"/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
 	<meta property="og:site_name" content=""/>
@@ -43,7 +43,9 @@
 	<!-- Flexslider -->
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_affect.css">
+	<link rel="stylesheet" href="css/style3.css">
+	<link rel="stylesheet" href="css/style_pensieve.css">
 
 	<link rel="stylesheet" href="css/gall.css" />
 
@@ -60,20 +62,25 @@
 	<div class="ubea-loader"></div>
 	
 	<div id="page">
-	<nav class="ubea-nav" role="navigation">
-		<div class="ubea-container">
+	<nav class="ubea-nav" role="navigation" style=" padding-top: 9px; padding-bottom: 9px">
+		<div class="ubea-container" style="position: relative;">
 			<div class="row">
+				<!-- <div class="NavBar-CenteredTitle" data-animation="lightSpeedIn" align="center" style="width:100%; height:100%; z-index:1; position: absolute; top:25%; vertical-align: middle;">
+					<div class="NavBar-Title NavBar-Title--inactive" style="font-weight: 100;">
+					<span class="NavBar-CenteredTitleAccents" >— </span>Pensieve<span class="NavBar-CenteredTitleAccents"> —</span>
+				</div></div> -->
+				<div class="js-top onScroll" align="center" style="width:100%; height:100%; z-index:1; position: absolute; top:25%; vertical-align: middle;">
+					<i>Supporting Supporters</i>
+				</div>
 				<div class="col-sm-2 col-xs-12">
-					<div id="ubea-logo"><a href="index.html">Andrea&nbsp;&nbsp;Shulman<em>.</em></a></div>
+					<div id="ubea-logo"><a href="./" class="external"><img src="images/longlogo.jpg" alt="Andrea Shulman" style="vertical-align: middle; width: 120%;"/></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1 main-nav">
 					<ul>
-						<li><a href="./" data-nav-section="home" class="external">Home</a></li>
-						<li><a href="./" data-nav-section="portfolio" class="external">Design Portfolio</a></li>
-						<li><a href="./" data-nav-section="tech" class="external">Skills</a></li>
-						<li><a href="./" data-nav-section="lead" class="external">Leadership</a></li>
-                        <li><a href="./" data-nav-section="about" class="external">About Me</a></li>
-						<li><a href="./" data-nav-section="contact" class="external">Contact</a></li>
+						
+						<li><a href="./" class="external">Design Portfolio</a></li>
+						<li><a href="./aboutme.html" class="external">About Me</a></li>
+						
 					</ul>
 				</div>
 			</div>
@@ -81,18 +88,17 @@
 		</div>
 	</nav>
 
-
 	<div id="ubea-hero" class="js-fullheight">
 		<div class="flexslider js-fullheight">
 			<ul class="slides">
-		   	<li style="background-image: url(images/brain.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
+		   	<li style="background-image: url(images/seattle.jpg);">
+		   		<div class="container"  align="center">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
-		   					<h2>Supporting&nbsp;&nbsp;those&nbsp;&nbsp;with&nbsp;&nbsp;mental&nbsp;&nbsp;illness</h2>
+		   					<h2 class = "highlight"><span>Supporting&nbsp;&nbsp;those&nbsp;&nbsp;with&nbsp;&nbsp;mental&nbsp;&nbsp;illness</span></h2>
 		   					<!-- <p><a href="http://twitter.com/freshdesignweb" target="_blank" class="btn btn-primary btn-lg">Follow @freshdesignweb</a></p> -->
-		   					<p style="display: inline; font-size:21px; color: #fff;">User Experience Design Intern <br /> Affect Mental Health <br /> Independent Research Project</p>
+		   					<p class = "highlight" style="font-size:21px;"><span>User Experience Design Intern <br /> Affect Mental Health</span></p><br/><br/>
+		   					<p class = "highlight" style="display: inline; font-size:19px; color: #fff;"><span>Winter 2019 - 10 weeks</span></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -100,66 +106,147 @@
 		  	</ul>
 	  	</div>
 	</div>
-	<div align="right"> <a target="_blank" href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjTxPPOnf3gAhXTu54KHX1mB1EQjRx6BAgBEAU&url=https%3A%2F%2Fwww.healthyplace.com%2Fother-info%2Fmental-illness-overview%2Fwhat-is-a-mental-illness&psig=AOvVaw0n2_22hIsR0B06HaJ-46f6&ust=1552501669330646"><u>Image source</u></a> <div>
-	<div class="ubea-section-overflow">
 
-		<div class="ubea-section" id="ubea-portfolio">
+	<!-- add a little padding so not on the edge of the screen, make on the same line -->
+	<div> <p class="pic_loc">Seattle, WA</p><p class="pic_date">August 31, 2018</p></div>
+	<!-- <div align="right" position="relative">November 16, 2019<div> -->
+	
+		<!-- <div align="center" id="nav" class="topnav">
+			 <a href="#Intro">Introduction</a>&emsp;|&emsp;
+			 <a href="#Needfinding">Interviews</a>&emsp;|&emsp;
+			 <a href="#Needs">Needs</a>&emsp;|&emsp;
+			 <a href="#Insights">Insights</a>&emsp;|&emsp;
+			 <a href="#POV">Point of View</a>&emsp;|&emsp;
+			 <a href="#Conclude">Concluding Remarks</a>
+			</div> -->
+
+
+	<div class="ubea-section-overflow">
+		<div class="ubea-section" id="ubea-portfolio" >
 			<div class="ubea-container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
-						<h2>Introduction</h2>
-						<p align="left" >For this project, I studied people with mental illness and their supporters to determine supporter needs. I interviewed 10 supporters and people with mental illness, with some falling into both categories. These needfinding interviews elicited surprisingly unique stories, though most of them were college students. Following the design process, I synthesized findings, insights, and needs that can be used build solutions in the mental healthcare space. <br/><br/> According to NAMI, “approximately 1 in 5 adults in the U.S.—43.8 million, or 18.5%—experiences mental illness in a given year.” These numbers, already alarmingly high, soar even higher when we consider those affected by mental illness - the sufferers and their supporters. Mental illness is extremely prevalent but common knowledge about how to help those dealing with it is minimal. This, feeling responsible for those they are supporting, and suffering the large emotional toll of a loved one going through such an illness are just a few reasons supporting loved ones is intensely difficult. People with mental illness also struggle with reaching out to others for help and sharing their burden. The following are my top findings.
+					<!-- <div class="col-md-8 col-md-offset-2 text-center ubea-heading"> -->
+						<!-- <h2>preface</h2> -->
+						<div class="col-md-offset-2 text-center ubea-heading" style="vertical-align:middle; margin-top: 40px">
+						<!-- <p align="left"> -->
+							<div align="left"style="width:33%; vertical-align: text-top; display: inline-block; text-align: left;margin:auto;padding-right:6px;"><p style="font-size:18px;margin:auto; font-weight: 500;">
+								Role + Team
+							</p>
+							<p class="lato-light" style="font-size:16px;margin:auto">
+								This project was completely solo. I reached out to <a href="https://www.affectmh.org/"><u>Affect Mental Healthcare</u></a>, a startup incubator from Harvard, because their mission and work resonated with me. 
+							</p>
+							</div>
+							<div align="center"style="width:33%; vertical-align: text-top; display: inline-block; text-align: left; padding-left:12px; padding-right:6px;margin:auto"><p class="lato-normal" style="font-size:18px;margin:auto;font-weight: 400;">
+								Challenge
+							</p>
+							<p class="lato-light" style="font-size:16px;margin:auto">
+								I was given the freedom to choose my topic such that it was relevant and helped Affect align their innovation with real needs. One in five adults in the U.S. have experienced mental illness in a given year - the size of those affected is exponential. 
+							</p>
+							</div>
+							<!-- mouseover to make bigger -->
+							<div align="right"style="width:33%; vertical-align: text-top; display: inline-block; text-align: left;margin:auto;padding-left:12px;"><p class="lato-normal" style="font-size:18px;margin:auto;font-weight: 400;">
+								Outcome
+							</p>
+							<p class="lato-light" style="font-size:16px;margin:auto">
+								I studied people with mental illness and their supporters to determine supporter needs. I synthesized findings, insights, and needs for future solutions in the mental healthcare space and returned a comprehensive report to Affect.
+							</p>
 
+							</div>					
+					</div>
+					
+				</div>
+				</div>
+				</div>
+
+		<a name="Intro"></a>
+	    <div class="ubea-section" id="ubea-portfolio">
+			<div class="ubea-container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 ubea-heading">
+						<h4 align="left">Empathize</h4>
+						<h2>Interviews</h2>
+						<p align="left" >Side note: After all my interviews, my dorm room was completely filled with sticky notes. </p>
+							
+							<div id="mgs" style=" display: inline-flex; justify-content: space-around; width: 100%">
+							    <img class="zoomaf" src="fromport/image/empmap.jpg" alt="" style="max-width: 35%;"/>
+							    <img  src="images/10views.png" alt="" style="max-width: 29%;"/>
+							    <img class="zoomaf" src="fromport/image/IMG_4090_2.jpg" alt="" style="max-width: 35%;"/>
+							    <!-- <span class="stretch"></span> -->
+							</div>
+							<div style=" display: inline-flex; justify-content: space-around; width: 100%">
+								<p class="pic_loc" style="padding:0px; display: inline;" align="left">Empathy map from one interview</p>
+								<!-- <p align="center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p> -->
+								<p class="pic_loc" style="padding-left:5px;display: inline; text-align:right" align="right">Clustering by theme &emsp;&emsp;</p>
+							</div>
 					</div>
 
 				</div>
 			</div>
 		</div>
         
-		<div class="ubea-section" id="ubea-tech">
+		
+
+		<a name="Needfinding"></a>
+		<div class="ubea-section" id="ubea-portfolio"style="background-color: rgb(130, 42, 101,.1);">
 			<div class="ubea-container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center ubea-heading"  style=" width=100%; flex-wrap: wrap;">
-						<h2>Needfinding Interviews</h2>
-						<br/>
-						<p>
-							Findings for the user group ‘people emotionally supporting those with mental illness’
-							<ul align="left" style="font-size:20px"> 
-								<li> Support is a mixture of carefully inducing distraction and helping them ride their wave. </li>
-								<li> Supporters can leverage the physical environment to help those with mental illness by moving them to a new location or offering touch.</li>
-								<li>Supporters feel responsible for others’ mental wellbeing, especially when they are the sole supporter.</li>
-							</ul>
-						</p>
-						<p>
-							Findings for the user group ‘people with mental illness’
-							<ul align="left" style="font-size:20px">
-								<li> People are afraid their emotions (or symptoms of their mental illness) will be judged or misunderstood as controllable.</li>
-								<li> Who a person with mental illness chooses for support depends on access to those who may understand</li>
-								<li> A supporter is a window into reality for those with mental illness when they are lost in their minds.</li>
-							</ul>
-						</p>
-						<p align="left">
-							This project focused on supporters, so the findings regarding people with mental illness can be used at a later point. From here, I made inferences to insights about the population and supporting situation.
-						</p>
+					<div class="col-md-8 col-md-offset-2 ubea-heading">
+						<h4 align="left">Empathize</h4>
+						<h2>Interviews: Top Findings</h2>
+						<!-- <br/> -->
+							<div>
+								<p align="left" style="margin-bottom: 5px;">
+									<b>Supporters</b> 
+								</p>
+								<!-- Findings for the user group ‘people emotionally supporting those with mental illness’ -->
+							
+								<ul align="left" style="font-size:20px;"> 
+									<li> Support is a mixture of carefully inducing distraction and helping them ride their wave </li>
+									<li> Supporters can leverage the physical environment to help
+									<!-- those with mental illness by moving them to a new location or offering touch -->
+										</li>
+									<li>Supporters feel responsible for others’ mental wellbeing
+										<!-- , especially when they are the sole supporter. -->
+									</li>
+								</ul>
+							</div>
+							<div>
+								<p align="left" style="margin-bottom: 5px; ">
+									<b>Supportees</b> 
+								</p>
+								<!-- Findings for the user group ‘people with mental illness’ -->
+							<!-- <p> -->
+								<ul align="left" style="font-size:20px;">
+									<li> People are afraid their emotions (or symptoms <!-- of their mental illness -->) will be judged or misunderstood as controllable</li>
+									<li> Choice of supporter depends on access to those who may understand</li>
+									<li> A supporter can be a window back into reality</li>
+								</ul>
+							</div>
 					</div>
 				</div>
 		</div>
-
 	</div>
     
-	<div id="ubea-blog">
+    <a name="Insights"></a>
+    <div class="ubea-section" id="ubea-portfolio">
 		<div class="ubea-container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
+				<div class="col-md-8 col-md-offset-2  ubea-heading">
+					<h4 align="left">Empathize + Define</h4>
 					<h2>Top&nbsp;&nbsp;Insights</h2>
-					<p>
-						<ul align="left" style="font-size:20px">
-								<li> Small things supporters do can provide hope to their supportees.</li>
-								<li> People with mental illness, when experiencing symptoms, are locked into their own minds and can’t access the outside world.</li>
+					<div style="display:inline-flex;">
+						<img src="images/50.png" alt="why cycle" style="width:33%; height:80%; display:inline-block; margin-right:40px;" align="left"/>
+						<div>
+							<p style="margin-bottom: 2px; margin-left: -20px;">Focusing on Supporter findings, I asked ‘why’ repetitively to get to my insights: </p>
+							<ul align="left" style="font-size:20px; padding-left:0px; margin-bottom: 0px">
+								<li> Small things can provide hope.</li>
+								<li> People with mental illness, when experiencing symptoms, are locked into their minds and can’t access the outside world.</li>
 								<li>Expectations surrounding mental health are skewed for both the sufferer and the supporter.</li>
 							</ul>
-					</p>
-					<p align="left" > From here, I determined supporter needs by brainstorming. </p>
+							<!-- </p> -->
+						</div>
+					</div>
+					<!-- <p align="left" > From here, I determined supporter needs by brainstorming. </p> -->
 				</div>
 			</div>
 	    </div>
@@ -167,39 +254,47 @@
 
 
 
-    <div id="ubea-blog">
+	<a name="Needs"></a>
+    <div class="ubea-section" id="ubea-portfolio" style="background-color: rgb(130, 42, 101,.1);">
 		<div class="ubea-container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
+				<div class="col-md-8 col-md-offset-2 ubea-heading">
+					<h4 align="left">Empathize + Define</h4>
 					<h2>Top&nbsp;&nbsp;Needs</h2>
+					<p>From the insights, I brainstormed then converged Supporter needs</p>
+						<!-- try to align this to the left and have the bullets to the right -->
 					<p>
-						<ul align="left" style="font-size:20px">
-								<li> Supporters need to know when to use which interventions and for whom.</li>
-								<li>Supporters need to help make their supportee more autonomous.</li>
-								<li>Supporters need to be educated on mental illness and what is generally expected.</li>
-								<li>Supporters need to be supported.</li>
+						<img class="zoomaf" align="right" src="images/brainsticks.jpg" alt="Brainstorm" style=" width:33%; margin-left: 40px"/>
+						<ul align="left" style="font-size:20px;">
+								<li> Supporters need to know when to use which interventions<!--  and for whom. --></li>
+								<li>Supporters need to help make their supportee more autonomous</li>
+								<li>Supporters need to be educated on mental illness and what is generally expected</li>
+								<li>Supporters need to be supported</li>
 							</ul>
 					</p>
-					<p align="left" >
-						These needs can direct future developers to actual user needs instead of designing for what we may think users need. Next I will share the insights and needs in context using point of views.
-					</p>
+					<!-- <p align="left" > -->
+						<!-- These needs can direct future developers to actual user needs instead of designing for what we may think users need. Next I will share the insights and needs in context using point of views. -->
+					<!-- </p> -->
 				</div>
 			</div>
 
 	    </div>
     </div>
 
-    <div id="ubea-blog">
+    <a name="POV"></a>
+    <div class="ubea-section" id="ubea-portfolio">
 		<div class="ubea-container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
-					<h2>Point&nbsp;&nbsp;of&nbsp;&nbsp;View</h2>
-					<p>
-						<ul align="left" style="font-size:20px">
-								<li>We met Julie, a college student with PTSD who freezes up and irrationally fears for her life. We were amazed to realize people with mental illness, when experiencing symptoms, are locked into their own minds and can’t access the outside world. It would be gamechanging to have supporters know when to use which interventions and for whom.</li><br/>
-								<li>We met Jane, a college student with anxiety who benefits deeply from hugs and distracting adventures. We were amazed to realize small things supporters do can provide hope to their supportees. It would be gamechanging to help supporters make their supportee more autonomous.</li><br/>
-								<li>We met Jordan, an ex-Googler whose family struggled to support her aunt who has bipolar disorder. We were amazed to realize expectations surrounding mental health are skewed for both the sufferer and the supporter. It would be gamechanging to educate supporters on mental illness and what is generally expected.</li><br/>
-								<li>We met Nick, a college student who was taken aback by his friend’s diagnosis and relied on a group of friends for support. We were amazed to realize expectations surrounding mental health are skewed for both the sufferer and the supporter. It would be gamechanging to support supporters.</li>
+				<div class="col-md-8 col-md-offset-2 ubea-heading">
+
+					<h4 align="left">Define</h4>
+					<h2>Point&nbsp;&nbsp;Of&nbsp;&nbsp;Views</h2>
+					<p> <b>We met ... &emsp; We were amazed to realize ... &emsp; It would be gamechanging to ...</b> <br />
+						<ul align="left" style="padding-left:0px; font-size:20px">
+								<div class="box1 sb8">We met Julie, a college student with PTSD who freezes up and irrationally fears for her life. We were amazed to realize people with mental illness, when experiencing symptoms, are locked into their own minds and can’t access the outside world. It would be gamechanging to have supporters know when to use which interventions and for whom.</div>
+								<div class="box1 sb7">We met Jane, a college student with anxiety who benefits deeply from hugs and distracting adventures. We were amazed to realize small things supporters do can provide hope to their supportees. It would be gamechanging to help supporters make their supportee more autonomous.</div>
+								<div class="box1 sb8">We met Jaci, an ex-Googler whose family struggled to support her aunt who has bipolar disorder. We were amazed to realize expectations surrounding mental health are skewed for both the sufferer and the supporter. It would be gamechanging to educate supporters on mental illness and what is generally expected.</div>
+								<div class="box1 sb7">We met Jon, a college student who was taken aback by his friend’s diagnosis and relied on a group of friends for support. We were amazed to realize expectations surrounding mental health are skewed for both the sufferer and the supporter. It would be gamechanging to support supporters.</div>
 							</ul>
 					</p>
 				</div>
@@ -208,20 +303,26 @@
 	    </div>
     </div>
 
-    <div class="ubea-section" id="ubea-portfolio">
-			<div class="ubea-container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center ubea-heading">
-						<h2>Concluding&nbsp;&nbsp;remarks</h2>
-						<p align="left" >
-							My hope is that these needs and point of views can be used to reassess the mental healthcare space, and provide supporters with the help they deserve. Supporters are a largely neglected part of the mental healthcare space, yet carry a large burden. With streamlined goals for this user group, proper solutions are possible.
-						</p>
-						<p align="left"> For a deeper dive into the project including more information on the design process, <a target="_blank" href="./pdfs/Affect_process.pdf"><u>click here.</u></a></p>
-					</div>
+    <a name="Conclude"></a>
+    <div class="ubea-section" id="ubea-portfolio" style="background-color: rgb(130, 42, 101,.1);">
+		<div class="ubea-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 ubea-heading">
 
+					<h4 align="left">Overview</h4>
+					<h2>Concluding&nbsp;&nbsp;Remarks</h2>
+					<p align="left" >
+						My hope is that these needs and point of views can be used to reassess the mental healthcare space, and provide supporters with the help they deserve. Supporters are a largely neglected part of the mental healthcare space, yet carry a large burden. With streamlined goals for this user group, proper solutions are possible.
+					</p>
+					<p align="left"> For a deeper dive into the project with process information, <a target="_blank" href="./pdfs/Affect_process.pdf"><u>click here.</u></a></p>
 				</div>
+
 			</div>
+		</div>
+	</div>
       
+	<div style="margin-bottom: 20px; margin-top: 20px; "> <p class="pic_loc"><a href="./codecoral.html"> &lt; Coral Connect</a></p><p class="pic_date"><a href="./neurodiversity.html">Neurodiverse Student Life &gt; </a></p></div>
+
 	<div id="ubea-contact" data-section="contact" class="ubea-cover ubea-cover-xs" style="background-image:url(images/img_bg_2.jpeg);">
 		<div class="overlay"></div>
 		<div class="ubea-container">
@@ -229,9 +330,8 @@
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-12" style="width: 100%">
-							<h3>If&nbsp;&nbsp;you&nbsp;&nbsp;have&nbsp;&nbsp;questions&nbsp;&nbsp;please&nbsp;&nbsp;email&nbsp;&nbsp;me&nbsp;&nbsp;at&nbsp;&nbsp;<a target="_blank" href="#">ashulman@stanford.edu</a></h3>
+							<h3 class="bttom">Let's&nbsp;&nbsp;work&nbsp;&nbsp;together! <br /> <a target="_blank" href="#" style="color: white;">andreashulman@gmail.com</a></h3>
 						</div>
-						<br/> <br/><br/> <br/>
 						<ul class="ubea-social-icons">
 							<li><a target="_blank" href="https://www.linkedin.com/in/andreashulman18/"><i class="icon-linkedin"></i></a></li>
 							<li><a target="_blank" href="https://github.com/ashulman18"><i class="icon-github"></i></a></li>
@@ -247,12 +347,12 @@
 		<!-- <div class="ubea-container"> -->
 			
 			<!-- <div class="row copyright"> -->
-				<div class="col-md-12">
+				<!-- <div class="col-md-12">
 					<center>
 						<small class="block">&copy; 2018 freshDesignweb. All Rights Reserved.</small> 
 						<small class="block">Designed by <a target="_blank" href="https://www.freshdesignweb.com/" target="_blank">freshDesignweb.com</a> with heavy editing by Andrea Shulman</small>
 					</center>
-				</div>
+				</div> -->
 			<!-- </div> -->
 
 		<!-- </div> -->
