@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 TITLE: 
 uBeasa - Fully Responsive Free Responsive HTML5 Template
@@ -55,4 +56,7 @@ Magnific Popup
 http://dimsemenov.com/plugins/magnific-popup/
 
 
+=======
+https://ashulman18.github.io/
+>>>>>>> 490b73e090766ecabc95af41ab37a0aa76ce4d46
 

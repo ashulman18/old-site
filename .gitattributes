@@ -2,4 +2,7 @@
 *.pptx filter=lfs diff=lfs merge=lfs -text
 Assignment2.pptx filter=lfs diff=lfs merge=lfs -text
 concept.mp4 filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
 *.pdf filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> 490b73e090766ecabc95af41ab37a0aa76ce4d46
